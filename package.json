@@ -1,0 +1,7 @@
+{
+  "name": "expo-updates-monorepo",
+  "workspaces": [
+    "applications/*"
+  ],
+  "packageManager": "yarn@4.1.1"
+}
