@@ -6,14 +6,44 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
-      "channel": "development"
+      "channel": "development",
+      "android": {
+        "env": {
+          "ENTRY_FILE": "./src/App.tsx"
+        }
+      },
+      "ios": {
+        "env": {
+          "ENTRY_FILE": "./applications/mobile/src/App.tsx"
+        }
+      }
     },
     "preview": {
       "distribution": "internal",
-      "channel": "preview"
+      "channel": "preview",
+      "android": {
+        "env": {
+          "ENTRY_FILE": "./src/App.tsx"
+        }
+      },
+      "ios": {
+        "env": {
+          "ENTRY_FILE": "./applications/mobile/src/App.tsx"
+        }
+      }
     },
     "production": {
-      "channel": "production"
+      "channel": "production",
+      "android": {
+        "env": {
+          "ENTRY_FILE": "./src/App.tsx"
+        }
+      },
+      "ios": {
+        "env": {
+          "ENTRY_FILE": "./applications/mobile/src/App.tsx"
+        }
+      }
     }
   },
   "submit": {
